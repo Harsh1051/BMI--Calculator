@@ -16,7 +16,7 @@ const App = () => {
   const output = useMemo(() => {
     const HeightInMeter = height / 100
 
-    return (weight / HeightInMeter * HeightInMeter).toFixed(1);
+    return (weight / (HeightInMeter * HeightInMeter)).toFixed(1);
 
   }, [weight, height])
   return (
@@ -36,6 +36,8 @@ const App = () => {
         <input className='input-slider'
           type='range'
           onChange={heightChange}
+          min='140'
+          max='220'
         />
       </div>
       <div className='output-section'>
