@@ -15,7 +15,7 @@ This is a simple and visually appealing **Body Mass Index (BMI) Calculator** bui
 
 ## 📸 Preview
 
-![BMI Calculator Screenshot](output.png) 
+![BMI Calculator Screenshot](Output.png) 
 
 ---
 
